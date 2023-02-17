@@ -7,13 +7,6 @@
 /*INDEX*/
 
 
-
-.body{
-    display: flex;
-    flex-direction: column;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
 .hero{
     background-image: url(../img/Barahona.jpg);
     align-items:flex-end;
@@ -50,7 +43,11 @@
     background-color: rgb(223, 233, 236)
 }
 
-
+.body{
+    display: flex;
+    flex-direction: column;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 
 
 .info-item{
@@ -435,7 +432,6 @@ height: auto;
     flex: 1;
     padding-left: 1rem;
     gap: 10px;
-    
     display: flex;
     width: 100hv;
     flex-wrap: wrap;
@@ -721,7 +717,7 @@ margin-left: 1rem;
     
 }
 
-.contacto__formulario{
+.contactos__formulario{
     width: 100%;
     max-width: 600px;
     margin: 0 auto;
@@ -802,7 +798,7 @@ margin-left: 1rem;
     height: auto;
 }
 
-.contacto{
+.contactos{
     text-decoration:none;
     color: black;
     font-size: 2rem;
@@ -863,7 +859,7 @@ margin-left: 1rem;
     animation-duration: 3s;
     border-radius: 1rem;
 }
-.contacto{
+.contactos{
     animation: entrar_salir;
 }
 
